@@ -22,12 +22,23 @@ The model's performance will be evaluated using the following metrics:
 ## Project Organization
     ├── readme.md                               <- The top-level README for developers using this project
     |
+    ├── app
+    │   ├── best-model_clv.py                    <- App
+    │   ├── requirements.txt                     <- Requirements for App
+    │
     ├── data
-    │   ├── mbg-clean.csv                       <- The original data
+    │   ├── data_customer_lifetime_value.csv     <- The original data
     │
     └── notebooks   
-        └── sentimen_analysis.ipynb             <- Sentimen analysis on Makan Bergizi Gratis Notebook 
+        └── capstone3_predict_clv.ipynb         <- CLV Prediction Notebook 
 
+**Predicting Website**
+
+https://capstone3-predictclv.streamlit.app/
+
+**Power Point**
+
+https://s.id/CLV-Prediction-ppt
 
 ## Contribution
 
